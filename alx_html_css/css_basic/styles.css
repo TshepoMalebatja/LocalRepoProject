@@ -20,4 +20,9 @@ aside {
     flex: 1;
     overflow-y: auto; 
 }
+.logo {
+    font-size: 5rem; 
+    padding: 15px;
+    color: #7e5c5c; 
+}
 
