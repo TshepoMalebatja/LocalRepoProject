@@ -39,3 +39,20 @@ top: 1572px;
 
 }
 
+.Membership{
+    
+position: absolute;
+width: 1440px;
+height: 502px;
+left: 0px;
+top: 2109px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #C271FF;
+}
+
