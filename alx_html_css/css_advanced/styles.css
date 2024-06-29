@@ -20,4 +20,22 @@ width: 1440px;
 height: 392px;
 left: -1px;
 top: 1093px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #071629;
 }
+
+.Videos{
+position: absolute;
+width: 1228px;
+height: 450px;
+left: 106px;
+top: 1572px;
+
+}
+
