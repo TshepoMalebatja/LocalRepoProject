@@ -1,0 +1,23 @@
+#what-we-do{
+    background-color: white; 
+    color: #000000; 
+    padding: 10px
+
+    
+
+}
+#what-we-do h1 {
+    cursor: pointer; 
+    transition: 0.2;
+}
+
+#what-we-do h1:hover {
+    animation: scale 1s infinite;
+}
+
+.paragraph{
+    background-color: white; 
+    color: #000000; 
+    padding: 10px;
+
+}
