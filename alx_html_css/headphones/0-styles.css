@@ -1,22 +1,30 @@
-.container {
-    max-width: 1000px;
-    margin: 0 auto; 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('C:\Users\maleb\AppData\Local\Temp\012c2577-bfa5-4fa4-bd23-7e0aa55c93b8_d1597894d79386c83b9b.zip.3b8\images\headphones_hero_1.jpg'); 
+    background-size: cover; 
+    background-color: #071629; 
+    background-blend-mode: normal, color;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
 }
 
-/* Mobile styles */
-@media only screen and (max-width: 480px) {
-    .container {
-        max-width: 100%; 
-        padding: 10px; 
-    }
-body {
-background-color: #071629;
-background-blend-mode: normal, color;
-background-image: url(C:\Users\maleb\AppData\Local\Temp\13b74faa-1d7b-4c98-9386-5c0d4237a41b_d1597894d79386c83b9b.zip.41b\images\headphones_hero_1.jpg);
-border: 1px solid #979797;
-position: absolute;
-width: 1400px;
-height: 800px;
-left: 0px;
-top: 0px;;
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
 }
