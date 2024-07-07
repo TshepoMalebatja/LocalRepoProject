@@ -1,0 +1,12 @@
+#what-we-do h1 {
+    cursor: pointer; 
+    transition: 0.2 ease-in-out;
+}
+
+#what-we-do h1:hover {
+    animation: scale 1s infinite;
+}
+
+.button:hover {
+    background-color: #FF6565; 
+}
